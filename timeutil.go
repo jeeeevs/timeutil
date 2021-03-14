@@ -10,6 +10,6 @@ func UpTime() func() int64 {
 	}
 }
 
-func timeStamp() {
+func timeStamp() int64 {
 	return time.Now().Unix()
 }
